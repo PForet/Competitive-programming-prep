@@ -33,6 +33,14 @@ A lot of questions on data structures can be prepared in advance (almost all of 
 ### And if you don't
 Make sure you can implement (and know how works) linked lists and binary trees. Recall that hash tables are in fact Python's `dict` or `set` (so don't implement it yourself). Learn the complexity, and you should be good to go.
 
+## Algorithms
+
+### Searching
+Make sure you understand and know how to implement a [binary search](https://www.geeksforgeeks.org/binary-search/) (complexity O(log n))
+
+### Sorting
+Make sure you have a basic understanding of quick-sort and merge-sort and know their complexity ( O(n log n) ). Knowing how to implement at least one of the two can be useful, but it's not a priority in my opinion.
+
 ## Basic exercises to know
 
 There are several typical domains of programming questions (called _algorithm paradigms_), each related to different skills and ways of thinking. The most well known (and probably the more tested) domain is **dynamic programming**. 
@@ -110,5 +118,8 @@ def ThreeSum(l):
     return False
 ```
 
-_(In fact, the best algorithm known for that task is in O(n^2 * log log n / log n), so we are very close and no one is expected to find this solution)
+_(In fact, the best algorithm known for that task is in O(n^2 * log log n / log n), so we are very close and no one is expected to find this solution)_
 
+### Takeaway
+
+When given a new problem, makes sure that you understand it by giving the interviewer (or testing on the simplest test cases for online exercises) a basic solution. Then, try to see if the questions falls into one of the big algorithms paradigms (is it a dynamic programming problem? Is there a greedy solution? Could it be related to graphs?). If the answer is no, then it is probably more a data structure problem such as the 3Sum problem above. In this case, try to see if you can find some trick (such as searching for `-a-b` in the list for instance), and if you can, try so find which data structure is more adapted for your problem (a Python `set` here).
