@@ -1,5 +1,8 @@
 # Introduction to competitive programming for interviews
 
+This file aims at giving an overview of the fundamentals needed to perform in coding interviews and competitive programming. If you don't have enough time to cover the material before an incoming interview, take at least a quick glance at the complexity of the different data structures, then move directly to the recommended practice exercises (and do the graph exercises only if you have the time).
+The exercises can seem complicated at first, so don't panic, practice makes perfect. 
+
 ## Data structures
 
 The type of object in the data structure does not matter. Most of the time it will be integers. The most important thing to remember is the complexity of the data structures for the four basic operations:
@@ -122,4 +125,4 @@ _(In fact, the best algorithm known for that task is in O(n^2 * log log n / log 
 
 ### Takeaway
 
-When given a new problem, makes sure that you understand it by giving the interviewer (or testing on the simplest test cases for online exercises) a basic solution. Then, try to see if the questions falls into one of the big algorithms paradigms (is it a dynamic programming problem? Is there a greedy solution? Could it be related to graphs?). If the answer is no, then it is probably more a data structure problem such as the 3Sum problem above. In this case, try to see if you can find some trick (such as searching for `-a-b` in the list for instance), and if you can, try so find which data structure is more adapted for your problem (a Python `set` here).
+When given a new problem, makes sure that you understand it by giving the interviewer (or testing on the simplest test cases for online exercises) a basic solution. Then, try to see if the questions fall into one of the big algorithms paradigms (is it a dynamic programming problem? Is there a greedy solution? Could it be related to graphs?). If the answer is no, then it is probably more a data structure problem such as the 3Sum problem above. In this case, try to see if you can find some trick (such as searching for `-a-b` in the list for instance), and if you can, try so find which data structure is more adapted for your problem (a Python `set` here).
