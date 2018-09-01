@@ -126,3 +126,9 @@ _(In fact, the best algorithm known for that task is in O(n^2 * log log n / log 
 ### Takeaway
 
 When given a new problem, makes sure that you understand it by giving the interviewer (or testing on the simplest test cases for online exercises) a basic solution. Then, try to see if the questions fall into one of the big algorithms paradigms (is it a dynamic programming problem? Is there a greedy solution? Could it be related to graphs?). If the answer is no, then it is probably more a data structure problem such as the 3Sum problem above. In this case, try to see if you can find some trick (such as searching for `-a-b` in the list for instance), and if you can, try so find which data structure is more adapted for your problem (a Python `set` here).
+
+# Resources 
+
+ - [MIT interview handouts](http://courses.csail.mit.edu/iap/interview/materials.php) Very short, good explanation of the typical data structures
+ - [Hackerrank](https://www.hackerrank.com) Very good practice problems, and good [preparation kit](https://www.hackerrank.com/interview/interview-preparation-kit) to typical interview questions.
+ - [GeeksForGeeks](https://www.geeksforgeeks.org) A little bit more difficult to digest, but the Bible for data structures and algorithms. Everything you need and beyond if you have enough time to cover the material
